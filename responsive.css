@@ -1,0 +1,53 @@
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 60px 0;
+    }
+    
+    .feature-box {
+        padding: 20px 15px;
+    }
+    
+    .slide img {
+        height: 250px;
+    }
+    
+    .pricing-card.featured::before {
+        top: 10px;
+        left: -35px;
+        padding: 4px 30px;
+        font-size: 12px;
+    }
+    
+    .testimonial {
+        padding: 20px;
+    }
+    
+    .footer .col-lg-4,
+    .footer .col-lg-3,
+    .footer .col-lg-2 {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+    
+    .hero-section p {
+        font-size: 1rem;
+    }
+    
+    .feature-box i {
+        font-size: 40px;
+    }
+    
+    .pricing-card {
+        margin-bottom: 20px;
+    }
+    
+    .slider-controls button {
+        width: 10px;
+        height: 10px;
+    }
+}

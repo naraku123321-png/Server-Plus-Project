@@ -1,0 +1,32 @@
+<div class="modal fade" id="orderAjaxModal" tabindex="-1" aria-labelledby="orderAjaxModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title fs-5" id="orderAjaxModalLabel">طلب الباقة</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="إغلاق"></button>
+            </div>
+            <div class="modal-body">
+                <form id="orderAjaxForm">
+                    <div class="mb-3">
+                        <label for="ajaxOrderName" class="form-label">الاسم الكامل</label>
+                        <input type="text" class="form-control" id="ajaxOrderName" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="ajaxOrderEmail" class="form-label">البريد الإلكتروني</label>
+                        <input type="email" class="form-control" id="ajaxOrderEmail" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="ajaxOrderPackage" class="form-label">الباقة المطلوبة</label>
+                        <select class="form-select" id="ajaxOrderPackage" required>
+                            <option value="">اختر الباقة</option>
+                            <option value="basic">الباقة الأساسية</option>
+                            <option value="medium">الباقة المتوسطة</option>
+                            <option value="advanced">الباقة المتقدمة</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">إرسال الطلب</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
